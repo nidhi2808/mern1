@@ -1,0 +1,13 @@
+const createDoc=async()=>
+{
+    //try{
+        const personData=new person({
+            name:"PQR1",
+            Surname:"XY33Z",
+            age:3,
+            active:true
+        });
+        personData.save().then(console.log("HGGG")).catch((err)=>{
+            console.log("problem");
+        })
+}
