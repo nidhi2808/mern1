@@ -3,10 +3,7 @@ mg.connect("mongodb://127.0.0.1:27017/zarana1").then(()=>{console.log("success")
 //mg.pluralize(null)
 const mySchema=new mg.Schema(
     {
-        name:{
-            type:String,
-            required:true
-        },
+        name:String,
         Surname:String,
         age:Number,
         active:Boolean,
