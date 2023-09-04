@@ -6,7 +6,7 @@ function App() {
   return(
     <>
     <UR2/>
-    hello
+    
     </>
   )
 }
