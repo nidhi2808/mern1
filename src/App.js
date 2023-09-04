@@ -4,7 +4,10 @@ import UR2 from "./HOOKS/eh";
 
 function App() {
   return(
+    <>
     <UR2/>
+    hello
+    </>
   )
 }
 export default App;
